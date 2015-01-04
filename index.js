@@ -42,7 +42,7 @@ module.exports = function (val, opts, pad) {
 			return "new Date('" + val.toISOString() + "')";
 		}
 
-                if (typeof val == 'function') {
+		if (typeof val == 'function') {
 			return val.name;
 		}
 
