@@ -1,13 +1,13 @@
 {
-  "name": "stringify-object",
-  "version": "1.0.0",
+  "name": "stringify-obj",
+  "version": "1.0.3",
   "description": "Stringify an object/array like JSON.stringify just without all the double-quotes",
   "license": "BSD",
-  "repository": "yeoman/stringify-object",
+  "repository": "https://github.com/yanxi-com/stringify-object.git",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "name": "yanxi",
+    "email": "blogbbs@gmail.com",
+    "url": "http://yanxi.com"
   },
   "engines": {
     "node": ">=0.10.0"

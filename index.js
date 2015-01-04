@@ -42,6 +42,10 @@ module.exports = function (val, opts, pad) {
 			return "new Date('" + val.toISOString() + "')";
 		}
 
+                if (typeof val == 'function') {
+			return val.name;
+		}
+
 		if (Array.isArray(val)) {
 			if (isEmpty(val)) {
 				return '[]';
